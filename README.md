@@ -57,13 +57,6 @@ python main.py
 
 ## Gerando certificados
 
-### Gerar certificados individuais (um arquivo por aluno):
-
-```python
-create_certificate(nome, cpf, curso, carga_horaria, responsavel)
-```
-
-
 ## Personalização
 
 Você pode adicionar a logomarca da instituição no arquivo `logo.png`. Ela será automaticamente incluída no topo de cada certificado.
