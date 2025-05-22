@@ -36,9 +36,9 @@ O projeto usa a planilha `alunos.xlsx` com as seguintes abas:
 ### No ambiente Linux
 
 ```bash
-git clone https://github.com/seu-usuario/Certificado_Fatec_Rio_Claro.git
-cd Certificado_Fatec_Rio_Claro/
-python3 -m venv venv
+git clone https://github.com/orlandosaraivajr/certificado_fatec_rio_claro.git
+cd certificado_fatec_rio_claro/
+virtualenv -p python3 venv
 source venv/bin/activate
 pip install -r requirements.txt
 python main.py 
@@ -47,8 +47,8 @@ python main.py
 ### No ambiente Windows
 
 ```bash
-git clone https://github.com/seu-usuario/Certificado_Fatec_Rio_Claro.git
-cd Certificado_Fatec_Rio_Claro/
+git clone https://github.com/orlandosaraivajr/certificado_fatec_rio_claro.git
+cd certificado_fatec_rio_claro/
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
